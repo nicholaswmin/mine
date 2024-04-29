@@ -1,0 +1,27 @@
+/*
+ * - Makes everything darker
+ * - Mutes unnecessary crap
+ */
+
+.bg() {
+  background-color: #222;
+  background: #222;
+}
+
+.activeText() {
+  color: #ccc !important;
+}
+
+.mutedText() {
+  color: #555 !important;
+}
+
+atom-text-editor,
+atom-workspace, { .bg() }
+.tree-view { .bg() }
+.status-bar { .bg() }
+.status-bar * { .mutedText() }
+.tab-bar { .bg(); border: 0 }
+.tab-bar .tab .title,
+.tab-bar .tab { margin:0; .bg()  }
+.tab.active { .activeText() }

@@ -1,0 +1,83 @@
+{
+	"extends": "Default.sublime-theme",
+	"variables":
+	{
+	 "vcs_untracked": "var(--greenish)",
+		"vcs_modified": "var(--orangish)",
+		"vcs_missing": "var(--redish)",
+		"vcs_staged": "var(--bluish)",
+		"vcs_added": "var(--greenish)",
+		"vcs_deleted": "var(--redish)",
+		"vcs_unmerged": "var(--purplish)",
+		"vcs_ignored": "gray"
+	},
+	"rules": [
+		{
+			"class": "sidebar_tree",
+			"row_padding": [15, 3, 10, 5]
+		},
+
+		{
+		 	"class": "sidebar_label"
+		},
+
+		{
+		 	"class": "sidebar_label",
+			"parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+			"color": "var(vcs_untracked)"
+		},
+
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+			"color": "var(vcs_modified)",
+			"shadow_color": "var(vcs_modified)",
+			"shadow_offset": "var(vcs_text_shadow_offset)"
+		},
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
+			"color": "var(vcs_missing)",
+			"shadow_color": "var(vcs_missing)",
+			"shadow_offset": "var(vcs_text_shadow_offset)"
+		},
+		{
+			"class": "sidebar_label",
+			"parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+			"color": "var(vcs_added)",
+			"shadow_color": "var(vcs_added)",
+			"shadow_offset": "var(vcs_text_shadow_offset)"
+		},
+
+			{
+		 	"class": "sidebar_label",
+			"parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
+			"color": "var(vcs_ignored)"
+		},
+
+		{
+			"class": "vcs_status_badge",
+			"parents": [{"class": "file_system_entry", "attributes": ["untracked"]}],
+			"layer0.texture": "Theme - Default/common/status_modified.png",
+			"layer0.tint": "var(vcs_added)"
+		},
+
+		{
+			"class": "vcs_status_badge",
+			"parents": [{"class": "file_system_entry", "attributes": ["modified"]}],
+			"layer0.tint": "var(vcs_modified)"
+		},
+
+		{
+			"class": "vcs_status_badge",
+			"parents": [{"class": "file_system_entry", "attributes": ["added"]}],
+			"layer0.texture": "Theme - Default/common/status_modified.png"
+		},
+
+		{
+			"class": "vcs_status_badge",
+			"parents": [{"class": "file_system_entry", "attributes": ["missing"]}],
+			"layer0.tint": "var(vcs_missing)"
+		}
+	]
+}
