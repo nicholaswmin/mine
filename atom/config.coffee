@@ -1,7 +1,7 @@
 "*":
   core:
     destroyEmptyPanes: false
-    projectHome: "/Users/nk/prj"
+    projectHome: "/Users/nk/prj" # replace this
     restorePreviousWindowsOnStart: "always"
     syncWindowThemeWithPulsarTheme: true
     transformDeprecatedStyleSheetMathExpressions: false
