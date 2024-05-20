@@ -31,6 +31,7 @@ Good reading:
 - https://www.codeproject.com/Articles/42354/The-Art-of-Logging
 - https://devcenter.heroku.com/articles/writing-best-practices-for-application-logs#define-which-events-to-log
 - https://tomayko.com/blog/2008/things-caches-do
+- https://www.thoughtworks.com/insights/books/building-evolutionary-architectures
 
 
 @nicholaswmin
