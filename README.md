@@ -33,6 +33,11 @@ Good reading:
 - https://tomayko.com/blog/2008/things-caches-do
 - https://www.thoughtworks.com/insights/books/building-evolutionary-architectures
 
+## Comments on CRDT's
+
+This guy gets it
+
+- https://github.com/xi-editor/xi-editor/issues/1187#issuecomment-491473599 
 
 @nicholaswmin
 
