@@ -28,6 +28,10 @@ Thumbs.db
 
 Good reading:
 
+Operational Transformation
+
+1. [Specification and Complexity of Collaborative Text Editing](Specification and Complexity of Collaborative Text Editing)
+
 - https://www.codeproject.com/Articles/42354/The-Art-of-Logging
 - https://devcenter.heroku.com/articles/writing-best-practices-for-application-logs#define-which-events-to-log
 - https://tomayko.com/blog/2008/things-caches-do
