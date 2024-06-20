@@ -30,7 +30,7 @@ Good reading:
 
 Operational Transformation
 
-[Specification and Complexity of Collaborative Text Editing](Specification and Complexity of Collaborative Text Editing)
+[Specification and Complexity of Collaborative Text Editing](https://www.cs.tau.ac.il/~mad/publications/podc2016-collabedit.pdf)
 
 - https://www.codeproject.com/Articles/42354/The-Art-of-Logging
 - https://devcenter.heroku.com/articles/writing-best-practices-for-application-logs#define-which-events-to-log
