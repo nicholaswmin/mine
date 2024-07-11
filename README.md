@@ -1,36 +1,19 @@
 # mine
-Personal Config
+Personal 
 
 - [Atom/Pulsar](/atom)
 - [Sublime 4](/sublime)
 
-Fonts:
+typeface:
 
 - Monospace [Menlo][menlo] (old OSX fonts)
 
-Atom is called Pulsar now.
+Unit testing:
 
-# Global .gitignore
+- [The Little Black Book on test-design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf)
+- [Unit-testing books][https://club.ministryoftesting.com/t/software-testing-books-wiki/72518]
 
-`$ vi ~/.gitignore_global`
-
-```
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-```
-
-Good reading:
-
-https://club.ministryoftesting.com/t/software-testing-books-wiki/72518
-
-Operational Transformation
+Operational Transformation:
 
 [Specification and Complexity of Collaborative Text Editing](https://www.cs.tau.ac.il/~mad/publications/podc2016-collabedit.pdf)
 
