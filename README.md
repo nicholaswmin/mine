@@ -28,6 +28,8 @@ Thumbs.db
 
 Good reading:
 
+https://club.ministryoftesting.com/t/software-testing-books-wiki/72518
+
 Operational Transformation
 
 [Specification and Complexity of Collaborative Text Editing](https://www.cs.tau.ac.il/~mad/publications/podc2016-collabedit.pdf)
