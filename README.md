@@ -41,8 +41,6 @@ Operational Transformation
 
 ## Comments on CRDT's
 
-This guy gets it
-
 - https://github.com/xi-editor/xi-editor/issues/1187#issuecomment-491473599 
 
 @nicholaswmin
