@@ -2,8 +2,8 @@
 
 my stuff
 
-- [Atom/Pulsar](/atom)
-- Monospace [Menlo][menlo] (old OSX fonts)
+- [zed][zed]
+- monospace [menlo][menlo] (old OSX fonts)
 
 ## Reading 
 
@@ -28,4 +28,5 @@ my stuff
 
 
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
+[zed]: https://zed.dev/
 
