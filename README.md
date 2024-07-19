@@ -1,14 +1,6 @@
 # mine
 
-## preferences
-
-- [`~./bash_profile`][bash]
-- monospace [menlo][menlo] (old OSX fonts)
-
-## apps
-
-- [zed][zed]
-- [jq][jq]
+my stuff plus:
 
 ## Reading 
 
