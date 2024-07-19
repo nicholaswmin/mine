@@ -6,6 +6,14 @@
 
 ### Eventual-consistency
 
+A method of handling distributed updates that contrasts what your run-of-the-mill software engineer would know.
+ACID is what is taught at universities as the one and only way. 
+10 years ago this would have been considered a literal sin - it looks like it's starting to take over since the 
+Dynamo papers came out.  
+ACID is *theoretically* unable to handle high-concurrency, see the CAPI theorem and todays apps are highly concurrent.
+Anecdotally the switch from ACID-thinking to Eventual Consistency is something a lot of software engineers resist 
+by tooth and nail.
+
 - [The CAP Theorem](https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf)
 - [The Dynamo Paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 
