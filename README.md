@@ -1,6 +1,6 @@
 # mine
 
-my stuff
+this is my personal stuff
 
 ## Reading 
 
@@ -40,7 +40,8 @@ Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/
 
 ### Uncategorised 
 
-- [Things Caches Do](https://tomayko.com/blog/2008/things-caches-do) 
+- [Things Caches Do](https://tomayko.com/blog/2008/things-caches-do)
+- [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
 
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [zed]: https://zed.dev/
