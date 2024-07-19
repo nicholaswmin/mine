@@ -19,10 +19,16 @@
 - [The Little Black Book on test-design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf)
 - [Unit-testing books](https://club.ministryoftesting.com/t/software-testing-books-wiki/72518)
 
-### Operational Transformation/CRDT:
+#### Eventual-consistency
+
+#### Operation transformation
 
 - [Specification and Complexity of Collaborative Text Editing](https://www.cs.tau.ac.il/~mad/publications/podc2016-collabedit.pdf)
+ 
+#### CRDT 
 
+- [AMC: Towards Trustworthy and Explorable CRDT
+Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/server/api/core/bitstreams/e0f9f934-9e79-4485-8745-f0a3191ff70c/content)
 ### Logging/Telemetry
 
 - https://www.codeproject.com/Articles/42354/The-Art-of-Logging
