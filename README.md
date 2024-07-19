@@ -11,6 +11,8 @@
 
 #### Operation transformation
 
+> A computation model which allows eventually-consistent convergence, much like a CRDT but does so using a very different technique.
+
 - [Specification and Complexity of Collaborative Text Editing](https://www.cs.tau.ac.il/~mad/publications/podc2016-collabedit.pdf)
  
 #### CRDT 
