@@ -49,6 +49,7 @@ Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/
 ## People 
 
 - [Adam Wiggins](https://adamwiggins.com/)
+- [Martin Klepmann](https://martin.kleppmann.com/)
 
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [zed]: https://zed.dev/
