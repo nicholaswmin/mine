@@ -38,4 +38,4 @@
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [zed]: https://zed.dev/
 [jq]: https://jqlang.github.io/jq/
-[bash]:https://github.com/nicholaswmin/mine/blob/main/bash.md
+[bash]: https://github.com/nicholaswmin/mine/blob/main/bash_profile
