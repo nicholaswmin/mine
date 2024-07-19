@@ -7,6 +7,7 @@ my stuff
 ### Eventual-consistency
 
 - [The CAP Theorem](https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf)
+- [The Dynamo Paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 
 #### Operation transformation
 
