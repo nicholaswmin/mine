@@ -46,6 +46,10 @@ Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/
 - [Things Caches Do](https://tomayko.com/blog/2008/things-caches-do)
 - [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
 
+## People 
+
+- [Adam Wiggins](https://adamwiggins.com/)
+
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [zed]: https://zed.dev/
 [jq]: https://jqlang.github.io/jq/
