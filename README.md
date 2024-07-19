@@ -40,6 +40,7 @@ Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/
 
 ### Uncategorised 
 
+- [The Dreyfus Model of Skills Acquisition](https://www.bumc.bu.edu/facdev-medicine/files/2012/03/Dreyfus-skill-level.pdf)
 - [Things Caches Do](https://tomayko.com/blog/2008/things-caches-do)
 - [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
 
