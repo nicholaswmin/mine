@@ -12,14 +12,7 @@
 
 ## Reading 
 
-### Unit testing:
-
-- [Focus on Integration tests](https://kentcdodds.com/blog/write-tests)
-- [The Eroding Test Pyramid](https://www.agileconnection.com/article/eroding-agile-test-pyramid)
-- [The Little Black Book on test-design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf)
-- [Unit-testing books](https://club.ministryoftesting.com/t/software-testing-books-wiki/72518)
-
-#### Eventual-consistency
+### Eventual-consistency
 
 #### Operation transformation
 
@@ -27,6 +20,8 @@
  
 #### CRDT 
 
+- [LoRe: A Programming Model for Verifiably Safe Local-first
+Software](https://dl.acm.org/doi/pdf/10.1145/3633769) 
 - [AMC: Towards Trustworthy and Explorable CRDT
 Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/server/api/core/bitstreams/e0f9f934-9e79-4485-8745-f0a3191ff70c/content)
 ### Logging/Telemetry
@@ -39,6 +34,12 @@ Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/
 
 - https://www.thoughtworks.com/insights/books/building-evolutionary-architectures
 
+### Unit testing:
+
+- [Focus on Integration tests](https://kentcdodds.com/blog/write-tests)
+- [The Eroding Test Pyramid](https://www.agileconnection.com/article/eroding-agile-test-pyramid)
+- [The Little Black Book on test-design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf)
+- [Unit-testing books](https://club.ministryoftesting.com/t/software-testing-books-wiki/72518)
 
 
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
