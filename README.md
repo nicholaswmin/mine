@@ -6,6 +6,8 @@ my stuff plus:
 
 ### Eventual-consistency
 
+- [The CAP Theorem](https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf)
+
 #### Operation transformation
 
 - [Specification and Complexity of Collaborative Text Editing](https://www.cs.tau.ac.il/~mad/publications/podc2016-collabedit.pdf)
