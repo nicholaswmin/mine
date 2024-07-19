@@ -1,6 +1,4 @@
-~/.bash_profile
-
-`nano ~/.bash_profile'
+`$ nano ~/.bash_profile`
 
 ---
 
