@@ -1,6 +1,6 @@
 # mine
 
-this is personal stuff and they are mine
+@nicholaswmin personal stuff
 
 ## Reading 
 
@@ -17,6 +17,7 @@ this is personal stuff and they are mine
 
 > A Conflict-free Replicated Data Type (CRDT) is a data structure that simplifies distributed data storage systems and multi-user applications.
 
+- [CRDT: Martin Klepmann](https://crdt.tech/)
 - [LoRe: A Programming Model for Verifiably Safe Local-first
 Software](https://dl.acm.org/doi/pdf/10.1145/3633769) 
 - [AMC: Towards Trustworthy and Explorable CRDT
