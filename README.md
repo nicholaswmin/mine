@@ -1,6 +1,6 @@
 # mine
 
-my stuff plus:
+my stuff
 
 ## Reading 
 
