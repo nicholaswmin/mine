@@ -1,6 +1,6 @@
 # mine
 
-My personal stuff
+this stuff is mine
 
 ## Reading 
 
@@ -61,7 +61,6 @@ My personal stuff
 - [Adam Wiggins](https://adamwiggins.com/)
 - [Martin Klepmann](https://martin.kleppmann.com/)
 - [Eric Dietrich](https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
-- [Lindsey Jacobellis](https://www.nytimes.com/2018/02/14/sports/olympics/lindsey-jacobellis-olympics-snowboard.html)
 
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [zed]: https://zed.dev/
