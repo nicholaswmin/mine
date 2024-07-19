@@ -1,6 +1,6 @@
 # mine
 
-this is my personal stuff
+this is personal stuff and they are mine
 
 ## Reading 
 
