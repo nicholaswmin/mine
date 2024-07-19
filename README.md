@@ -1,6 +1,6 @@
 # mine
 
-@nicholaswmin personal stuff
+@nicholaswmin personal stuff, not work
 
 ## Reading 
 
