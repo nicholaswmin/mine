@@ -1,31 +1,31 @@
 # mine
 
-@nicholaswmin personal stuff, not work
+My personal stuff
 
 ## Reading 
 
-### Eventual-consistency
+#### Operational transformation
 
-A method of handling distributed updates that contrasts what your run-of-the-mill software engineer would know.
-ACID is what is taught at universities as the one and only way. 
-10 years ago this would have been considered a literal sin - it looks like it's starting to take over since the 
-Dynamo papers came out.  
-ACID is *theoretically* unable to handle high-concurrency, see the "CAP theorem" and todays systems are highly concurrent.
-Anecdotally the switch from ACID-thinking to Eventual Consistency is something a lot of software engineers resist 
-by tooth and nail.
-
-- [The CAP Theorem](https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf)
-- [The Dynamo Paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
-
-#### Operation transformation
-
-> A computation model which allows eventually-consistent convergence, much like a CRDT but does so using a very different technique.
+> A model which allows convergence of data,
+> much like a CRDT but does so using a very different technique.
+> It's distinguishing feature is that it's model requires a central
+> coordinating server, whereas a CRDT does not.
+> 
+> Google Docs is built around this concept and they seem to guard
+> it's actual method of operation under lock and key.
 
 - [Specification and Complexity of Collaborative Text Editing](https://www.cs.tau.ac.il/~mad/publications/podc2016-collabedit.pdf)
  
 #### CRDT 
 
-> A Conflict-free Replicated Data Type (CRDT) is a data structure that simplifies distributed data storage systems and multi-user applications.
+> A Conflict-free Replicated Data Type (CRDT) is a data structure that
+> simplifies distributed data storage systems and multi-user applications.
+> Which is fancy science talk about a simple concept:
+> 
+> it allows 2 users to work on disconnected pieces of he same data and then
+> transparentlymerge those pieces at some point in the future,
+> in a way that preserves the intent of both users, without interfering with each
+> others work.
 
 - [CRDT: Martin Klepmann](https://crdt.tech/)
 - [LoRe: A Programming Model for Verifiably Safe Local-first Software](https://dl.acm.org/doi/pdf/10.1145/3633769) 
@@ -34,6 +34,7 @@ by tooth and nail.
 
 
 ### Logging/Telemetry
+
 - [The Art of Logging](https://www.codeproject.com/Articles/42354/The-Art-of-Logging)
 - [Best Practices for Application Logs]( https://devcenter.heroku.com/articles/writing-best-practices-for-application-logs#define-which-events-to-log)
 
