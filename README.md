@@ -27,13 +27,12 @@ Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/
 ### Logging/Telemetry
 - [Sebastian Burckhardt. Principles of eventual consistency. Foundations and Trends in Programming Languages](https://www.nowpublishers.com/article/Details/PGL-011)
 
-- https://www.codeproject.com/Articles/42354/The-Art-of-Logging
-- https://devcenter.heroku.com/articles/writing-best-practices-for-application-logs#define-which-events-to-log
-- https://tomayko.com/blog/2008/things-caches-do
+- [The Art of Logging](https://www.codeproject.com/Articles/42354/The-Art-of-Logging)
+- [Best Practices for Application Logs]( https://devcenter.heroku.com/articles/writing-best-practices-for-application-logs#define-which-events-to-log)
 
 ### Architecture 
 
-- https://www.thoughtworks.com/insights/books/building-evolutionary-architectures
+- [Building Evolutionary architectures](https://www.thoughtworks.com/insights/books/building-evolutionary-architectures)
 
 ### Unit testing:
 
@@ -42,6 +41,9 @@ Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/
 - [The Little Black Book on test-design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf)
 - [Unit-testing books](https://club.ministryoftesting.com/t/software-testing-books-wiki/72518)
 
+### Uncategorised 
+
+- [Things Caches Do](https://tomayko.com/blog/2008/things-caches-do) 
 
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [zed]: https://zed.dev/
