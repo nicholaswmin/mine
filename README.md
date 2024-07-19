@@ -3,6 +3,7 @@
 my stuff
 
 - [zed][zed]
+- [rebase-editor][rebase-editor]
 - monospace [menlo][menlo] (old OSX fonts)
 
 ## Reading 
@@ -32,4 +33,6 @@ my stuff
 
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [zed]: https://zed.dev/
+[rebase-editor]: https://github.com/sjurba/rebase-editor
+
 
