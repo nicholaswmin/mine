@@ -1,10 +1,14 @@
 # mine
 
-my stuff
+## preferences
+
+- [`~./bash_profile`][bash]
+- monospace [menlo][menlo] (old OSX fonts)
+
+## apps
 
 - [zed][zed]
-- [rebase-editor][rebase-editor]
-- monospace [menlo][menlo] (old OSX fonts)
+- [jq][jq]
 
 ## Reading 
 
@@ -33,6 +37,5 @@ my stuff
 
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [zed]: https://zed.dev/
-[rebase-editor]: https://github.com/sjurba/rebase-editor
-
-
+[jq]: https://jqlang.github.io/jq/
+[bash]:https://github.com/nicholaswmin/mine/blob/main/bash.md
