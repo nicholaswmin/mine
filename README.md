@@ -22,11 +22,11 @@ Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/
 - [The Art of Logging](https://www.codeproject.com/Articles/42354/The-Art-of-Logging)
 - [Best Practices for Application Logs]( https://devcenter.heroku.com/articles/writing-best-practices-for-application-logs#define-which-events-to-log)
 
-### Architecture 
+### Systems Architecture 
 
 - [Building Evolutionary architectures](https://www.thoughtworks.com/insights/books/building-evolutionary-architectures)
 
-### Unit testing:
+### Unit testing
 
 - [Focus on Integration tests](https://kentcdodds.com/blog/write-tests)
 - [The Eroding Test Pyramid](https://www.agileconnection.com/article/eroding-agile-test-pyramid)
