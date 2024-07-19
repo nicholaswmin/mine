@@ -1,4 +1,6 @@
-# apps/programs
+#!/usr/bin/bash 
+
+# @nicholaswmin apps/programs
 
 
 # Personal 
