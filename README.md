@@ -25,6 +25,7 @@ Software](https://dl.acm.org/doi/pdf/10.1145/3633769)
 - [AMC: Towards Trustworthy and Explorable CRDT
 Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/server/api/core/bitstreams/e0f9f934-9e79-4485-8745-f0a3191ff70c/content)
 ### Logging/Telemetry
+- [Sebastian Burckhardt. Principles of eventual consistency. Foundations and Trends in Programming Languages](https://www.nowpublishers.com/article/Details/PGL-011)
 
 - https://www.codeproject.com/Articles/42354/The-Art-of-Logging
 - https://devcenter.heroku.com/articles/writing-best-practices-for-application-logs#define-which-events-to-log
