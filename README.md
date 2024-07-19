@@ -10,7 +10,7 @@ my stuff
 
 ### Unit testing:
 
-- [Focus on Integration tests](https://kentcdodds.com/calls/04)
+- [Focus on Integration tests](https://kentcdodds.com/blog/write-tests)
 - [The Eroding Test Pyramid](https://www.agileconnection.com/article/eroding-agile-test-pyramid)
 - [The Little Black Book on test-design](https://www.thetesteye.com/papers/TheLittleBlackBookOnTestDesign.pdf)
 - [Unit-testing books](https://club.ministryoftesting.com/t/software-testing-books-wiki/72518)
