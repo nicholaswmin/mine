@@ -33,6 +33,9 @@ brew tap heroku/brew && brew install heroku
 # Redis 
 brew install redis
 
+# Node Version Manager
+brew install nvm
+
 
 
 
