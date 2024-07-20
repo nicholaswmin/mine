@@ -30,11 +30,15 @@ brew install gh
 # Heroku CLI
 brew tap heroku/brew && brew install heroku
 
+# Node Version Manager
+brew install nvm
+
 # Redis 
 brew install redis
 
-# Node Version Manager
-brew install nvm
+# Postgres
+brew install postgresql
+
 
 
 
