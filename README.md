@@ -1,8 +1,35 @@
 # mine
 
-this stuff is mine
+not work
 
 ## Reading 
+
+### Eventual Consistency
+
+A consistency model that contrasts [ACID](https://en.wikipedia.org/wiki/ACID).
+
+While your run-of-mill system can get away with the standard ACID model 
+that is taught at universities, 
+a high-concurrency collaborative system cannot.
+
+In essence you have to trade some data guarantees for others, 
+mainly high-availability and partitioning. 
+
+Data architectures in a high-concurrency, distributed system are governed by the 
+CAP theorem and it's limitations; i.e "you can't have it all".
+
+- [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+- [Fallacies of Distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+
+this is also important:
+
+- [Martin Klepmann: Please stop calling databases AP or CP](https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html)
+
+The following are eventually consistency models designed to work 
+in a collaborative context.
+
+Their concepts are not necessarily new but they are considered exotic data architectures 
+and a big chunk of them is still a research subject. 
 
 #### Operational transformation
 
@@ -20,12 +47,14 @@ this stuff is mine
 
 > A Conflict-free Replicated Data Type (CRDT) is a data structure that
 > simplifies distributed data storage systems and multi-user applications.
+>
 > Which is fancy science talk about a simple concept:
 > 
-> it allows 2 users to work on disconnected pieces of he same data and then
-> transparentlymerge those pieces at some point in the future,
+> it allows 2 users to work on disconnected pieces of the same data and then
+> transparently merge those pieces at some point in the future,
 > in a way that preserves the intent of both users, without interfering with each
 > others work.
+>
 
 - [CRDT: Martin Klepmann](https://crdt.tech/)
 - [LoRe: A Programming Model for Verifiably Safe Local-first Software](https://dl.acm.org/doi/pdf/10.1145/3633769) 
