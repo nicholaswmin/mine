@@ -30,6 +30,9 @@ brew install gh
 # Heroku CLI
 brew tap heroku/brew && brew install heroku
 
+# Redis 
+brew install redis
+
 
 
 
