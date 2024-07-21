@@ -90,6 +90,7 @@ and a big chunk of them is still a research subject.
 - [Adam Wiggins](https://adamwiggins.com/)
 - [Martin Klepmann](https://martin.kleppmann.com/)
 - [Eric Dietrich](https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
+- [Tyler Treat](https://bravenewgeek.com/you-cannot-have-exactly-once-delivery/)
 
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
 [zed]: https://zed.dev/
