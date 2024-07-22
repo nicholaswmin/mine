@@ -2,6 +2,8 @@
 
 # @nicholaswmin apps/programs
 
+# General 
+brew install npm
 
 # Personal 
 
@@ -16,7 +18,8 @@ brew install --cask slack
 # whatsapp
 brew install --cask whatsapp
 
-# Work
+# curl but better
+brew install httpie
 
 # zed code editor
 brew install --cask zed
