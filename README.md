@@ -1,6 +1,6 @@
 # mine
 
-my dotfiles and non-work stuff
+my dotfiles 
 
 ## Reading 
 
