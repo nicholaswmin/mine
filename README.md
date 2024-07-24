@@ -21,7 +21,7 @@ CAP theorem and it's limitations; i.e "you can't have it all".
 - [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 - [Fallacies of Distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 - [Brewers Conjecture](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/brewers-conjecture.pdf)
--  
+
 this is also important:
 
 - [Martin Klepmann: Please stop calling databases AP or CP](https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html)
