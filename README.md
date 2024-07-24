@@ -81,7 +81,6 @@ and a big chunk of them is still a research subject.
 
 ### Uncategorised 
 
-- [Escape from Freedom: Erich Fromm](https://psycnet.apa.org/record/1942-01072-000)
 - [The Dreyfus Model of Skills Acquisition](https://www.bumc.bu.edu/facdev-medicine/files/2012/03/Dreyfus-skill-level.pdf)
 - [Things Caches Do](https://tomayko.com/blog/2008/things-caches-do)
 - [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
