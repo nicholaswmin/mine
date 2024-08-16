@@ -18,6 +18,7 @@ mainly high-availability and partitioning.
 Data architectures in a high-concurrency, distributed system are governed by the 
 CAP theorem and it's limitations; i.e "you can't have it all".
 
+- [The Theorem that doesn't go away](https://www.the-paper-trail.org/post/2010-10-07-the-theorem-that-will-not-go-away/)
 - [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
 - [Fallacies of Distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 - [Brewers Conjecture](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/brewers-conjecture.pdf)
