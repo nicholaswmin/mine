@@ -66,6 +66,7 @@ and a big chunk of them is still a research subject.
 ### Algos
 
 - [Paxos Consensus Protocols](https://github.com/bigeasy/paxos?tab=readme-ov-file)
+- [Barbara Liskov: Byzantine-Fault Tolerance Protocol](https://www.the-paper-trail.org/post/2009-03-30-barbara-liskovs-turing-award-and-byzantine-fault-tolerance/)
 
 ### Logging/Telemetry
 
