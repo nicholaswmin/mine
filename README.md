@@ -66,10 +66,12 @@ and a big chunk of them is still a research subject.
 ### Consensus Resolution
 
 > A truely distributed system will reach a point where its nodes have awoken from failure and need to *agree on who has the correct value*.  
-> This forms the basis of a family of problems, **the consensus problems** - it is only imperfectly-solved by highly elaborate mechanisms. 
+> This forms the basis of a family of problems, ***the consensus problems*** - it is only imperfectly-solved by highly elaborate mechanisms or more practically but even more hapharzadly, using *quorums*.  
 > Lamparts PAXOS is a family of protocols that prove that consesnsus, while very hard to get right, is not impossible.
 
-- [Byzantine Fault: Reaching Agreement in the Presence of Faults] https://lamport.azurewebsites.net/pubs/pubs.html?from=https://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html&type=path#byz
+> Note that Lampart's PAXOS doesn't fully cover Byzantine-Faults.
+
+- [Byzantine Fault: Reaching Agreement in the Presence of Faults](https://lamport.azurewebsites.net/pubs/pubs.html?from=https://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html&type=path#byz)
 - [Paxos Consensus Protocols](https://github.com/bigeasy/paxos?tab=readme-ov-file)
 - [Barbara Liskov: Byzantine Fault-Tolerance](https://www.the-paper-trail.org/post/2009-03-30-barbara-liskovs-turing-award-and-byzantine-fault-tolerance/)
 
