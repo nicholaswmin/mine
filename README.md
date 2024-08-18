@@ -63,10 +63,10 @@ and a big chunk of them is still a research subject.
 - [Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/server/api/core/bitstreams/e0f9f934-9e79-4485-8745-f0a3191ff70c/content)
 - [Sebastian Burckhardt. Principles of eventual consistency. Foundations and Trends in Programming Languages](https://www.nowpublishers.com/article/Details/PGL-011)
 
-### Algos
+### Consensus Resolution
 
 - [Paxos Consensus Protocols](https://github.com/bigeasy/paxos?tab=readme-ov-file)
-- [Barbara Liskov: Byzantine-Fault Tolerance Protocol](https://www.the-paper-trail.org/post/2009-03-30-barbara-liskovs-turing-award-and-byzantine-fault-tolerance/)
+- [Barbara Liskov: Byzantine Fault-Tolerance](https://www.the-paper-trail.org/post/2009-03-30-barbara-liskovs-turing-award-and-byzantine-fault-tolerance/)
 
 ### Logging/Telemetry
 
@@ -88,7 +88,6 @@ and a big chunk of them is still a research subject.
 
 - [The Dreyfus Model of Skills Acquisition](https://www.bumc.bu.edu/facdev-medicine/files/2012/03/Dreyfus-skill-level.pdf)
 - [Things Caches Do](https://tomayko.com/blog/2008/things-caches-do)
-- [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
 
 ## People 
 
