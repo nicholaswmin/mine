@@ -95,16 +95,23 @@ and a big chunk of them is still a research subject.
 
 Leslie Lampart has a fetish for Greece, Paxos is a Greek island and Byzantine is .. Byzantine.
 
-### Thundering herd: 
-
-> Our nodes have awoken from failure and attempt some kind of reconnect.
-> 
-> This is the "retry stampede" issue we had in Bitpaper
->
 
 ### Split-brain: 
 
 > Similar to a Byzantine Fault but not about reaching consensous
+
+
+### Thundering herd: 
+
+> Example: A node has died and it's clients detect it. 
+> This kickstarts an internal timer to attempt reconnect.
+> Eventually thousands of clients converge on a reconnect attempt, simultaneously, which starves the node -
+> by the time the node has starved itself it has propagated the failure to other subsystems
+> and kickstarted a cascading failure, eventually bringing the entire system down.
+> An "okay-ishly" technique to solve this, is exponential backoffs.
+>
+> *cascading-failures* are the most serious failure types (not modes) in distributed systems because they
+> are guaranteed to result in *catastrophic failure* (failure from which recovery is impossible).
 
 ### 2-phase Commit Protocol
 
