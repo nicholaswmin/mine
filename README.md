@@ -19,7 +19,7 @@ Before you choose to breaking a systems architecture into distributed services, 
   It's failure modes are active research subjects, nearly impossible to reason about because of their inherent complexity and when it goes wrong,
   it tends to fail the entire system catastrophically.
   The issues produced require analysis for days (or even weeks) to get to the bottom of them and that is if by some miracular reason you have a
-  granular telemetry system set up.
+  granular telemetry system set up <- you don't, regardless of what you think or say about this
 
 - A distributed architecture in one place tends to infect the architectural design of subsequent modules; it's the leakiest abstraction you can find.
   True distributed microservices **require** an Eventually Consistent data model (see below) which makes everything asynchronous. 
@@ -204,3 +204,5 @@ The protocols are extraordinaringly hard to read but the problem itself is simpl
 [zed]: https://zed.dev/
 [jq]: https://jqlang.github.io/jq/
 [bash]: https://github.com/nicholaswmin/mine/blob/main/bash_profile
+
+xx nik
