@@ -1,5 +1,7 @@
 # mine
 
+> Notes for Elvira and Jonn
+
 ## Architecture of distributed & fault-tolerant services
 
 Before you choose to breaking a systems architecture into distributed services, note this, from me:
