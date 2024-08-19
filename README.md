@@ -21,8 +21,12 @@ Before you choose to breaking a systems architecture into distributed services, 
 - A distributed architecture in one place tends to infect the architectural design of subsequent modules; it's the leakiest abstraction you can find.
   True distributed microservices **require** an Eventually Consistent data model (see below) which makes everything asynchronous. 
   This means anything that pings your API will have to take this into account.
+- It limits your ability to hire - if Elvira leaves and the Architect needs to be replaced, they would need to have experience in distributed system design. 
+  My fairly limited experience in this tells me that 5/10 people think they know what it is but know jack shit, 3/10 haven't heard of it and the 2/10 that do will require 
+  a salary that you won't be able to match up. I
+Unless there is a very well specified business requirement - you should not do it. 
 
-Unless there is a very well specified business requirement - you shouldn't do it.
+These are the terms that Jonn requested with watered-down descriptions - don't give them to any of the Juniors; it's pointless to involve them in the Deg/Eng team anyway.
 
 ### Eventual Consistency
 
