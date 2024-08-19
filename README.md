@@ -9,7 +9,8 @@ Before you choose to breaking a systems architecture into distributed services, 
 - ***Don't do it***. Resist the pressure (either by yourself or most often by an idiot busybody executive) to use "microservices"
   because "other people do it". There is no "other people do it". Most people don't do microservices, they do some kind of multiprocessing and think it's SOA - and those that actually do have nearly driven their companies to the toilet numerous times because of it.
   It's impossible not to get caught off-guard by their complexity, unless you did an MSc on them or similar and you happen to know what's up.
-  As an example, have a look at Zookeeper and you'll figure out
+  As an example, have a look at what [Zookeeper](https://zookeeper.apache.org/) does and why it's neeeded and you'll figure out. 
+  Distributed computing is exceptionally hard. 
 - By doing so you're entering a drastically different environment than the one you're trained on. 
   It's failure modes are active research subjects, nearly impossible to reason about because of their inherent complexity and when it goes wrong,
   it tends to fail the entire system catastrophically.
