@@ -16,14 +16,31 @@ This is the main argument of the CAP theorem.
 If you took Distributed Systems in your Bachelor, 
 you've 100% covered it - it's also called Brewer's Conjecture. 
 
-A system that demonstrates: 
+### Consistency
+
+For disambiguating - consistency is better described as *linearizeability*.
+
+> In concurrent programming, an operation (or set of operations) is linearizable if it consists of an ordered list of invocation and response events, that may be extended by adding response events such that:
+> The extended list can be re-expressed as a sequential history (is serializable).
+> That sequential history is a subset of the original unextended list.
+
+If you've ever played with Redis you'd know exactly what this is - Redis is single-threaded and running on an Event Loop,
+meaning `read-after-write` operations always return the previous value regardless of contention on that particular datum,
+in other words they perform their composite writes as *Atomic Commitments*.
+
+The most straightforward definition I know comes from this paper.
+
+<img width="707" alt="Screenshot 2024-08-19 at 12 17 43 PM" src="https://github.com/user-attachments/assets/76647724-a1a0-45a6-9de1-b35a7a18b288">
+
+### The CAP theorem 
+
+A system that demonstrates all 3: 
 
 - Consistency
 - Availability
 - Partition-tolerance
 
 is theoretically impossible - but practically you can design an architecture that is good-enough.
-
 
 - [The Theorem that doesn't go away](https://www.the-paper-trail.org/post/2010-10-07-the-theorem-that-will-not-go-away/)
 - [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
