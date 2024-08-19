@@ -76,6 +76,26 @@ and a big chunk of them is still a research subject.
 - [Paxos Consensus Protocols](https://github.com/bigeasy/paxos?tab=readme-ov-file)
 - [Barbara Liskov: Byzantine Fault-Tolerance](https://www.the-paper-trail.org/post/2009-03-30-barbara-liskovs-turing-award-and-byzantine-fault-tolerance/)
 
+## Failure modes of distributed systems
+
+### Byzantine faults:
+
+> The term takes its name from an allegory, the "Byzantine generals problem" - developed to describe a situation in which, to avoid catastrophic failure of a system, the system's actors must agree on a strategy, but some of these actors are unreliable in such a way as to cause other (good) actors to disagree on the strategy and they may be unaware of the disagreement.
+
+Leslie Lampart has a fetish for Greece, Paxos is a Greek island and Byzantine is .. Byzantine.
+
+### Thundering herd: 
+
+> Our nodes have awoken from failure and attempt some kind of reconnect.
+> 
+> This is the "retry stampede" issue we had in Bitpaper
+>
+
+### Split-brain: 
+
+> Similar to a Byzantine Fault but not about reaching consensous
+
+
 ### Logging/Telemetry
 
 - [The Art of Logging](https://www.codeproject.com/Articles/42354/The-Art-of-Logging)
