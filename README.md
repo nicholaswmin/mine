@@ -93,7 +93,7 @@ and a big chunk of them is still a research subject.
 
 > The term takes its name from an allegory, the "Byzantine generals problem" - developed to describe a situation in which, to avoid catastrophic failure of a system, the system's actors must agree on a strategy, but some of these actors are unreliable in such a way as to cause other (good) actors to disagree on the strategy and they may be unaware of the disagreement.
 
-Leslie Lampart has a fetish for Greece, Paxos is a Greek island and Byzantine is .. Byzantine.
+> Leslie Lampart has a fetish for Greece, Paxos is a Greek island and Byzantine is .. Byzantine.
 
 
 ### Split-brain: 
