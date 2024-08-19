@@ -2,6 +2,24 @@
 
 ## Architecture of distributed & fault-tolerant services
 
+Before you choose to breaking a systems architecture into distributed services, note this, from me:
+
+- What most people call microservices are not true microservices in the sense of distributed computing. 
+  A distributed microservice architecture assumes **multiple databases** in an assembly that looks like its federated.
+- ***Don't do it***. Resist the pressure (either by yourself or most often by an idiot busybody executive) to use "microservices"
+  because "other people do it". There is no "other people do it". Most people don't do microservices, they do some kind of multiprocessing and think it's SOA - and those that actually do have nearly driven their companies to the toilet numerous times because of it.
+  It's impossible not to get caught off-guard by their complexity, unless you did an MSc on them or similar and you happen to know what's up.
+- By doing so you're entering a drastically different environment than the one you're trained on. 
+  It's failure modes are active research subjects, nearly impossible to reason about because of their inherent complexity and when it goes wrong,
+  it tends to fail the entire system catastrophically.
+  The issues produced require analysis for days (or even weeks) to get to the bottom of them and that is if by some miracular reason you have a
+  granular telemetry system set up.
+- A distributed architecture in one place tends to infect the architectural design of subsequent modules - it's the leakiest abstraction you can find.
+  True distributed microservices **require** an Eventually Consistent data model (see below) which makes everything asynchronous. 
+  This means anything that pings your API will have to take this into account.
+
+Unless there is a very well specified business requirement - you shouldn't do it.
+
 ### Eventual Consistency
 
 A consistency model that contrasts [ACID](https://en.wikipedia.org/wiki/ACID). Named so because the final values 
