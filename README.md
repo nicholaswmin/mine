@@ -1,22 +1,30 @@
 # mine
 
 
-
-## Reading 
+## Architecture of distributed & fault-tolerant services
 
 ### Eventual Consistency
 
-A consistency model that contrasts [ACID](https://en.wikipedia.org/wiki/ACID).
+A consistency model that contrasts [ACID](https://en.wikipedia.org/wiki/ACID). Named so because the final values 
+are not synchronously known (or at least known to be consistent) - they will be, eventually.
 
-While your run-of-mill system can get away with the standard ACID model 
-that is taught at universities, 
-a high-concurrency collaborative system cannot.
+It's academic name is BASE: *Basically Available, Soft State, Eventual Consistency*. <- this is academic mumbo jumbo, just call it Eventually Consistent.
 
-In essence you have to trade some data guarantees for others, 
-mainly high-availability and partitioning. 
+It contrasts the ACID criterion of *Consistency*. 
 
-Data architectures in a high-concurrency, distributed system are governed by the 
-CAP theorem and it's limitations; i.e "you can't have it all".
+This is the main argument of the CAP theorem.   
+
+If you took Distributed Systems in your Bachelor, 
+you've 100% covered it - it's also called Brewer's Conjecture. 
+
+A system that demonstrates: 
+
+- Consistency
+- Availability
+- Partition-tolerance
+
+is theoretically impossible - but practically you can design an architecture that is good-enough.
+
 
 - [The Theorem that doesn't go away](https://www.the-paper-trail.org/post/2010-10-07-the-theorem-that-will-not-go-away/)
 - [CAP Theorem](https://en.wikipedia.org/wiki/CAP_theorem)
