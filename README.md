@@ -70,11 +70,9 @@ and a big chunk of them is still a research subject.
 - [Applications with the Automerge Model Checker](https://api.repository.cam.ac.uk/server/api/core/bitstreams/e0f9f934-9e79-4485-8745-f0a3191ff70c/content)
 - [Sebastian Burckhardt. Principles of eventual consistency. Foundations and Trends in Programming Languages](https://www.nowpublishers.com/article/Details/PGL-011)
 
-### Biphasic-Commit Protocol
+## Atomic Commitment Protocols
 
-Also called 2PC (Two-phase Commit Protocol)
-
-@TODO
+> @TODO 
 
 ### Consensus Resolution
 
@@ -108,6 +106,11 @@ Leslie Lampart has a fetish for Greece, Paxos is a Greek island and Byzantine is
 
 > Similar to a Byzantine Fault but not about reaching consensous
 
+### 2-phase Commit Protocol
+
+> Also called 2PC
+
+> // @ TODO
 
 ### Logging/Telemetry
 
