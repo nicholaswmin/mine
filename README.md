@@ -128,9 +128,13 @@ and a big chunk of them is still a research subject.
 
 > A truely distributed system will reach a point where its nodes have simultaneously awoken from failure and need to *agree on who has the correct value*.  
 
-> This central issue forms the basis of a family of problems, called ***the consensus problems*** - they are imperfectly-solved by highly elaborate mechanisms or more practically but even more hapharzadly, using [*quorums*](https://en.wikipedia.org/wiki/Quorum_(distributed_computing)). 
+> This central issue forms the basis of a family of problems, called ***the consensus problems*** - they are imperfectly-solved by highly elaborate mechanisms that in one form or another use [*quorums*](https://en.wikipedia.org/wiki/Quorum_(distributed_computing)); the nodes use an algorithm to elect a leader or a group
+of trusted nodes which determine how to proceed. 
 
-> Lamparts PAXOS is a family of protocols which prove that achieving consensus is not impossible; it is an actual proof.
+This is not something you would implement yourselves - they are very elaborate algorithms. You only need to know more or less what they do, what benefits they offer and what tradeoffs and then just pick a configuration that suits your needs. Some consensus resolution schemes are synchronous (consistent?) but 
+brittle and non-scalable - other are far more lenient with consistency guarantees and thus much more performant when it comes to scaling-out.
+
+> By far the most famous is Lamparts PAXOS family of protocols which prove that achieving consensus is not impossible, this is an actual proof.
 > PAXOS doesn't cover [Byzantine Failures](https://en.wikipedia.org/wiki/Byzantine_fault).
 
 - [Byzantine Fault: Reaching Agreement in the Presence of Faults](https://lamport.azurewebsites.net/pubs/pubs.html?from=https://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html&type=path#byz)
@@ -145,15 +149,17 @@ and a big chunk of them is still a research subject.
 
 > Leslie Lampart has a fetish for Greece, Paxos is a Greek island and Byzantine is .. Byzantine.
 
-Byzantine Faults used to be NASA-level issues because the issues they produce used to be relevant to aircraft avionics with multiply-redundant systems.
+This problems more or less center around the idea that some nodes report some faulty values to some nodes and some other value to other nodes - which one is correct? How would you proceed with some action if you can't agree on whether you have some correct data in the 1st place and neither can you agree on the faultiness anyway? 
 
-They became an Average Joe problem because it's fashionable to break up systems into microservices, which effectively produces the same condition. 
+Byzantine failures call these nodes "bad actors" - obviously the nodes don't have a grudge against you - it means the nodes are producing faulty data.
 
-The protocols are extraordinaringly hard to read but the problem itself is simple and clicks easy.
+Byzantine Faults used to be some kind of NASA-level issues because the issues they produce used to be relevant to aircraft avionics with multiply-redundant systems. They became an Average Joe problem because it's fashionable to break up systems into microservices, which effectively produces the same condition. 
+
+Any time you hear this term, you're certainly knee-deep into seriously advanced bullshit - if you require consistency guarantees you're probably in the right place, otherwise steer clear. BFT configurations are usually systems that require a team just to keep it running smoothly. 
 
 ### Split-brain: 
 
-> Similar to a Byzantine Fault but not about reaching consensous
+> Similar to a Byzantine Fault but not about reaching consensous - basically you've got 2 piece of supposedly homogenous data across 2 or more nodes. A partition takes place so node A doesn't know if he has the correct data and can't know - same for node B.
 
 
 ### Thundering herd: 
