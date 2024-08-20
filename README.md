@@ -135,15 +135,12 @@ This is not something you would implement yourselves - they are very elaborate a
 brittle and non-scalable - other are far more lenient with consistency guarantees and thus much more performant when it comes to scaling-out.
 
 > By far the most famous is Lamparts PAXOS family of protocols which prove that achieving consensus is not impossible, this is an actual proof.
-> PAXOS doesn't cover [Byzantine Failures](https://en.wikipedia.org/wiki/Byzantine_fault).
-
-- [Byzantine Fault: Reaching Agreement in the Presence of Faults](https://lamport.azurewebsites.net/pubs/pubs.html?from=https://research.microsoft.com/en-us/um/people/lamport/pubs/pubs.html&type=path#byz)
-- [Paxos Consensus Protocols](https://github.com/bigeasy/paxos?tab=readme-ov-file)
-- [Barbara Liskov: Byzantine Fault-Tolerance](https://www.the-paper-trail.org/post/2009-03-30-barbara-liskovs-turing-award-and-byzantine-fault-tolerance/)
+> PAXOS doesn't cover [Byzantine Failures](https://en.wikipedia.org/wiki/Byzantine_fault). It's literally torture to go through the original paper,
+> Lampart has rewritten it as "Paxos Made Simple" published somewhere.
 
 ## Failure modes of distributed systems
 
-### Byzantine faults:
+### Byzantine Fault-Tolerance:
 
 > The term takes its name from an allegory, the "Byzantine generals problem" - developed to describe a situation in which, to avoid catastrophic failure of a system, the system's actors must agree on a strategy, but some of these actors are unreliable in such a way as to cause other (good) actors to disagree on the strategy and they may be unaware of the disagreement.
 
@@ -151,11 +148,12 @@ brittle and non-scalable - other are far more lenient with consistency guarantee
 
 This problems more or less center around the idea that some nodes report some faulty values to some nodes and some other value to other nodes - which one is correct? How would you proceed with some action if you can't agree on whether you have some correct data in the 1st place and neither can you agree on the faultiness anyway? 
 
-Byzantine failures call these nodes "bad actors" - obviously the nodes don't have a grudge against you - it means the nodes are producing faulty data.
+In the papers you'll see nodes being "bad" actors - obviously the nodes don't have a grudge against you - it means the nodes are producing faulty data observerd by some to be `X` and by others to be `Y` - this is a "treacherous" node.
 
 Byzantine Faults used to be some kind of NASA-level issues because the issues they produce used to be relevant to aircraft avionics with multiply-redundant systems. They became an Average Joe problem because it's fashionable to break up systems into microservices, which effectively produces the same condition. 
 
-Any time you hear this term, you're certainly knee-deep into seriously advanced bullshit - if you require consistency guarantees you're probably in the right place, otherwise steer clear. BFT configurations are usually systems that require a team just to keep it running smoothly. 
+Any time you hear this term, you're certainly knee-deep into seriously advanced bullshit - if you require consistency guarantees you're probably in the right place, otherwise steer way-clear. BFT configurations are usually systems that require a team just to keep it running smoothly. 
+
 
 ### Split-brain: 
 
@@ -173,6 +171,7 @@ Any time you hear this term, you're certainly knee-deep into seriously advanced 
 >
 > *cascading-failures* are the most serious failure types (not modes) in distributed systems because they
 > are guaranteed to result in *catastrophic failure* (failure from which recovery is impossible).
+> It's like a domino-effect, which is much easier to picture.
 
 ### 2-phase Commit Protocol
 
