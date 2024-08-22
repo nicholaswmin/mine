@@ -134,9 +134,11 @@ of trusted nodes which determine how to proceed.
 This is not something you would implement yourselves - they are very elaborate algorithms. You only need to know more or less what they do, what benefits they offer and what tradeoffs and then just pick a configuration that suits your needs. Some consensus resolution schemes are synchronous (consistent?) but 
 brittle and non-scalable - other are far more lenient with consistency guarantees and thus much more performant when it comes to scaling-out.
 
-> By far the most famous is Lamparts PAXOS family of protocols which prove that achieving consensus is not impossible, this is an actual proof.
+> By far the most famous is Lamparts PAXOS family of protocols which prove that achieving consensus is possible - this is an actual proof.
 > PAXOS doesn't cover [Byzantine Failures](https://en.wikipedia.org/wiki/Byzantine_fault). It's literally torture to go through the original paper,
 > Lampart has rewritten it as "Paxos Made Simple" published somewhere.
+>
+> The relevant systme integration is Zookeper, a highly-available distributed orchestration service.
 
 ## Failure modes of distributed systems
 
