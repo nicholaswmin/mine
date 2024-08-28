@@ -1,8 +1,13 @@
 # mine
 
-> Notes for Elvira and Jonn
+## Unit Testing
+
+[writing-maintainable-unit-tests-sample.pdf](https://github.com/user-attachments/files/16781270/writing-maintainable-unit-tests-sample.pdf)
 
 ## Architecture of distributed & fault-tolerant services
+
+> Notes for Elvira and Jonn
+
 
 Before you choose to breaking a systems architecture into distributed services, note this, from me:
 
