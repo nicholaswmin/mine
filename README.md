@@ -12,7 +12,9 @@
 Before you choose to breaking a systems architecture into distributed services, note this, from me:
 
 - What most people call microservices are not true microservices in the sense of distributed computing. 
-  A distributed microservice architecture assumes **multiple databases** in an assembly that looks like its federated.
+  A distributed microservice architecture assumes **multiple databases** in an assembly that looks like its federated. 
+The problem isn't processing of data per se - the problems are primarily in the ability to *synchronously* and *conclusively* update a piece of data that spans multiple, independent, globally-replicated nodes.
+
 - ***Don't do it***. Resist the pressure (either by yourself or most often by an idiot busybody executive) to use "microservices"
   because "other people do it". There is no "other people do it". Most people don't do microservices, they do some kind of multiprocessing and think it's SOA - and those that actually do have nearly driven their companies to the toilet numerous times because of it.
 
