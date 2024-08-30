@@ -2,7 +2,8 @@
 
 ## Unit Testing
 
-[Writing-Maintainable-Unit-Tests (Sample)](https://github.com/user-attachments/files/16781270/writing-maintainable-unit-tests-sample.pdf)
+- [Writing-Maintainable-Unit-Tests (Sample)](https://github.com/user-attachments/files/16781270/writing-maintainable-unit-tests-sample.pdf)
+- [Agile Testing: A Practical Guide for Testers and Agile Teams](https://www.amazon.com/dp/0321534468)
 
 ## Functional Programmming
 
