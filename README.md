@@ -4,6 +4,10 @@
 
 [writing-maintainable-unit-tests-sample.pdf](https://github.com/user-attachments/files/16781270/writing-maintainable-unit-tests-sample.pdf)
 
+## Functional Programmming
+
+[Prof. Frisby's Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbook.io/mostly-adequate-guide)
+
 ## Architecture of distributed & fault-tolerant services
 
 > Notes for Elvira and Jonn
