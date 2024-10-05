@@ -43,6 +43,10 @@ brew install redis
 brew install postgresql
 
 
+# actionlint (Github Actions Linter):
+brew tap "rhysd/actionlint" "https://github.com/rhysd/actionlint"
+brew install actionlint
+
 
 
 
