@@ -5,8 +5,6 @@
 > repo is for personal use but   
 > just in case, license is [MIT-0][mit-zero].
 
-### steps:
-
 1. follow steps in order of precedence
 2. Install typography 
 3. The rest (sort out Zed settings, etc.)
