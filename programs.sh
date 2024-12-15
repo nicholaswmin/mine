@@ -2,8 +2,10 @@
 
 # @nicholaswmin apps/programs
 
-# General 
-brew install npm
+# Node first 
+brew install nvm
+nvm install --lts
+nvm use node
 
 # Personal 
 
@@ -46,7 +48,3 @@ brew install postgresql
 # actionlint (Github Actions Linter):
 brew tap "rhysd/actionlint" "https://github.com/rhysd/actionlint"
 brew install actionlint
-
-
-
-
