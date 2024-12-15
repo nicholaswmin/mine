@@ -64,7 +64,7 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 looks like this (more or less):
 
 
-<img width="800" alt="zed app screenshot, showing the theme colours" src="[3bc3e0514ec5](https://github.com/user-attachments/assets/b4fbed84-2791-4fc4-85bb-a9beddcbcb73)"/>
+<img width="800" alt="zed app screenshot, showing the theme colours" src="https://github.com/user-attachments/assets/b4fbed84-2791-4fc4-85bb-a9beddcbcb73"/>
 
 
 - working terminal
