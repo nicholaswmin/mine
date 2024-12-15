@@ -25,6 +25,9 @@
 - a lot of panels are disabled, also mutes colors.
 - highlighting is influenced by Atom One Dark
 
+<img width="800" alt="screenshot of zed code editor showing the theme colours" src="https://github.com/user-attachments/assets/ce2632b8-8a5c-42f2-971c-3bc3e0514ec5" />
+
+
 ### Setings
 
 - working terminal
