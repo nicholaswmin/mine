@@ -50,8 +50,9 @@ looks like this (more or less):
 
 ## Typography
 
-- Zed UI: Monaco (Susan Kare)
-- Zed Buffer/Terminal: [Menlo][menlo] (Jim Lyles, shipped with old OSX)
+[Monaco][monaco] (Susan Kare), used in Zed UI
+
+[Menlo][menlo] (Jim Lyles, shipped with old OSX), used in Zed Buffer & shell
 
 
 [mit-zero]: https://spdx.org/licenses/MIT-0.html
