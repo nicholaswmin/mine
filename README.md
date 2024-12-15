@@ -14,8 +14,8 @@
 ## `./profile` 
 
 - stores main settings
- - Sets `projects` alias 
- - `serve` runs [`npx serve`][serve] in the current directory
+  - Sets `projects` alias 
+  - `serve` runs [`npx serve`][serve] in the current directory
 - add it in home directory, i.e: `Users/nicholaswmin/.profile`
 - The `./bashrc` sources it.
 - terminal settings `settings.terminal` sources `~/.bashrc` on startup
@@ -25,8 +25,9 @@
 ### Theme
 
 - v. minimal, pallette is muted, no icons, disabled panels etc..
+    - some stuff that impact usability can't be thrown away obvs.
  - syntax highlighting is influenced by Atom One Dark but even more minimal
-  - tries to be sensible about colors rather than paint keywords arbitrarily,s
+   - tries to be sensible about colors rather than paint keywords arbitrarily,s
   still looks meh but ok.
  - rest are just sensible choices that play well with each other  
  - terminal (in-app) uses the "vibrant" color palette, from Apple's  
