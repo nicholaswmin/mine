@@ -65,7 +65,7 @@ looks like this (more or less):
 
 ## steps
 
-`users/nicholaswmin/config/zed` should look like:
+`users/nicholaswmin/.config/zed` should look like:
 
 - `themes/nicholaswmin.json` <-- theme file
 - `keybindings.json` 
