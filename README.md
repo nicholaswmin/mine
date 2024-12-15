@@ -7,10 +7,9 @@
 
 ### steps:
 
-1. Install `.profile`
-2. Install `programs.sh`
-3. Install typography 
-4. The rest (sort out Zed settings, etc.)
+1. follow steps in order of precedence
+2. Install typography 
+3. The rest (sort out Zed settings, etc.)
 
 ## shell
 
