@@ -66,7 +66,7 @@ looks like this (more or less):
   - add folder to project like Atom
   - open/close terminal via <key>Shift</key><key>n</key>/<key>Shift</key>+ <key>m</key>
 
-## settings
+## steps
 
 `users/nicholaswmin/config/zed` should look like:
 
