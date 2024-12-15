@@ -1,47 +1,6 @@
-# mine
-<<<<<<< Updated upstream
+## Good reading
 
-![catmull](https://github.com/user-attachments/assets/20191326-7d1b-47bf-a106-fcaada45a2bf)
-
-=======
-my dotfiles
-
-## `./profile` 
-> set in home directorys
-
-The `settings.terminal` load it on startup.
-
-## Zed Code editor
-
-- Theme is based on Atom OneDark
-  but more minimalistic.
-- zed settings with working terminal (and disable a lot of junk)
-- zed keybindings:
-  - add folder to project like Atom
-  - open/close terminal via <key>Shift</key>+ <key>n</key>/<key>Shift</key>+ <key>m</key>
-
-Fonts:
-
-- Monospace [Menlo][menlo] (old OSX fonts)
-
-# Global .gitignore
-
-`$ vi ~/.gitignore_global`
-
-```
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-```
-
-Good reading
->>>>>>> Stashed changes
+> for the team workshops
 
 ## Unit Testing
 
