@@ -9,6 +9,15 @@
 2. Install typography 
 3. The rest (sort out Zed settings, etc.)
 
+
+##  todos
+
+- [ ] `npm` config
+- [ ] `git` config
+- [ ] local dev. SSL
+- [x] zed
+- [x] shell settings/profile etc
+
 ## shell
 
 > overview: Use `bash` and tell MacOS to stfu about upgrading `zsh`
@@ -54,7 +63,8 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 looks like this (more or less):
 
-<img width="800" alt="screenshot of zed code editor showing the theme colours" src="https://github.com/user-attachments/assets/ce2632b8-8a5c-42f2-971c-3bc3e0514ec5" />
+
+<img width="800" alt="zed app screenshot, showing the theme colours" src="[3bc3e0514ec5](https://github.com/user-attachments/assets/b4fbed84-2791-4fc4-85bb-a9beddcbcb73)"/>
 
 
 - working terminal
