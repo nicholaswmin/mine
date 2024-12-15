@@ -1,5 +1,6 @@
 #!/bin/bash
-# Note: `source ~/.bash_profile` after change
+
+# Note: `source ~/.profile` after change
 export PATH="$PATH:"/usr/local/bin/
 
 # nvm shit
