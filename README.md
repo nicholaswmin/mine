@@ -11,6 +11,7 @@
 - [x] zed
 - [x] shell settings/profile etc
 
+
 ## shell
 
 > overview: Use `bash` and tell MacOS to stfu about upgrading `zsh`
@@ -26,26 +27,14 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1
 ```
 
-## `./profile` 
-
-> overview
-
-- stores main settings
-  - Sets `projects` alias 
-  - `serve` runs [`npx serve`][serve] in the current directory
-
-### steps
-
-- add it in home directory, i.e: `Users/nicholaswmin/.profile`
-- The `./bashrc` sources it.
-- terminal settings `settings.terminal` sources `~/.bashrc` on startup
 
 ## zed 
 
-entire `~/.config/zed` folder is uploaded here
+entire `~/.config/zed` folder is uploaded here,   
+so just replace that folder as-is.
 
 > [!IMPORTANT]   
-> avoid changing settings abitrarily,   
+> avoid changing these settings abitrarily,   
 > almost every tweak is chosen for a reason
 
 ### theme 
@@ -86,7 +75,7 @@ needs cleanup to keep only ones I use.
 
 ### settings
 
-- disable alternate LSPs for JavaScript, keep only `vtsls`
+- disable alternate LSPs for JavaScript, keep only [`vtsls`][vtsls]
 - disables shitty code-completion suggestions from [LSP: `vtsls`][vtsls]
   - *without* disabling the LSP itself;   
     required for syntax validation, formatting etc.
@@ -107,6 +96,16 @@ needs cleanup to keep only ones I use.
 [Menlo][menlo] (Jim Lyles, shipped with old OSX), used in Zed Buffer & shell
 
 
+## `./profile` 
+
+> Just the OS `.profile`
+
+- add it in home directory, i.e: `Users/nicholaswmin/.profile`
+- The `./bashrc` sources it.
+- terminal settings `settings.terminal` sources `~/.bashrc` on startup
+
+
+
 ## authors
 
 [@nicholaswmin][nicholaswmin]
@@ -119,3 +118,4 @@ needs cleanup to keep only ones I use.
 [serve]: https://www.npmjs.com/package/serve
 [monaco]: https://en.wikipedia.org/wiki/Monaco_(typeface)
 [menlo]: https://en.wikipedia.org/wiki/Menlo_(typeface)
+[vtsls]: https://github.com/yioneko/vtsls/blob/main/packages/service/configuration.schema.json
