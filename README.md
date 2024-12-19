@@ -78,8 +78,7 @@ supposed to be generic snippets for all files, empty for now
 
 #### `html.json`
 
-nicked from `friendly-snippets` package, with some mods, needs cleanup to 
-keep only ones I actually use.
+nicked from `friendly-snippets` package, needs cleanup to keep only ones actually used.
 
 ### `settings.json`
 
@@ -92,9 +91,12 @@ keep only ones I actually use.
 - enable Github Copilot inline-suggestions
 - working terminal
 - disables UI unused features, panels
-- custom keybindings:
-  - `add folder to project`: <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>o</kbd>
-  - `toggle terminal`: <kbd>Shift</kbd><kbd>n</kbd>/<kbd>Shift</kbd><kbd>m</kbd>
+
+
+### `keymap.json`:
+
+- `add folder to project`: <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>o</kbd>
+- `toggle terminal`: <kbd>Shift</kbd><kbd>n</kbd>/<kbd>Shift</kbd><kbd>m</kbd>
 
 ### shell logins
 
@@ -119,7 +121,6 @@ no idea where this goes for now but ok
 the end
 
 [@nicholaswmin][nicholaswmin], [MIT-0 License][mit-zero]
-
 
 [zed]: https://zed.dev/
 [mit-zero]: https://spdx.org/licenses/MIT-0.html
