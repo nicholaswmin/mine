@@ -2,17 +2,11 @@
 
 > [@nicholaswmin's][nicholaswmin] dotfiles
 
-> repo is for personal use but   
-> just in case, license is [MIT-0][mit-zero].
-
-1. follow steps in order of precedence
-2. Install typography 
-3. The rest (sort out Zed settings, etc.)
-
+> repo is for personal use
 
 ##  todos
 
-- [ ] `npm` config
+- [ ] ~~`npm` config~~ use a zed `task` to scaffold ESM modules.
 - [ ] `git` config
 - [ ] local dev. SSL
 - [x] zed
@@ -49,38 +43,61 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 ## zed 
 
-> overview
+entire `~/.config/zed` folder is uploaded here
 
-- v. minimal, pallette is muted, no icons, disabled panels etc..
-    - some stuff that impact usability can't be thrown away obvs.
- - syntax highlighting is influenced by Atom One Dark but even more minimal
-   - tries to be sensible about colors rather than paint keywords arbitrarily,s
-  still looks meh but ok.
- - rest are just sensible choices that play well with each other  
- - terminal (in-app) uses the "vibrant" color palette, from Apple's  
-  Human Interface Guidelines, current version
+> [!IMPORTANT]   
+> avoid changing settings abitrarily,   
+> almost every tweak is chosen for a reason
 
+### theme 
+
+> started as ripoff of Atom's One Dark theme; most choices are now deliberate.
+
+- inline code-completions use unobtrusive muted palette; avoid interference
+  with actual typing.
+- code completions popup blends unobtrusively with background; borderless, 
+  muted palette.
+- muted punctuation `{`, `(` palette to emphasize code keywords, functions.
+- muted peripheral UI palette
 
 looks like this (more or less):
 
-
 <img width="800" alt="zed app screenshot, showing the theme colours" src="https://github.com/user-attachments/assets/b4fbed84-2791-4fc4-85bb-a9beddcbcb73"/>
 
+### snippets
 
+#### `javascript.json` 
+
+- organised in sections, e.g: `Promise`, `for`, `Array` etc..
+- syntax is *primarily* hyper-consise lambdas
+- each snippet `prefix` is intentionally named to order them appropriately in
+  the code-completion popup:
+  - e.g:`Array.forEach` is renamed `Array.each` to avoid popping up
+    on `for` for `for loop` etc.
+      
+#### `snippet.json`
+
+supposed to be generic snippets that are not language-specific, 
+empty file for now.
+
+#### `html.json`
+
+code snippets nicked from `friendly-snippets` package, with some modifications,
+needs cleanup to keep only ones I use.
+
+### settings
+
+- disables shitty code-completion suggestions from [LSP: `vtsls`][vtsls]
+  - *without* disabling the LSP itself, needed for validations, formatting etc.
+  - keeps ony useful custom snippets in code-completion popup, finally.
+- customise *some* code formatting rules
+- enable Github Copilot inline-suggestion
+- disable alternate LSPs for JavaScript, keep only `vtsls`
 - working terminal
 - disables a lot of unused features etc..
 - custom keybindings:
   - add folder to project like Atom
   - open/close terminal via <key>Shift</key><key>n</key>/<key>Shift</key>+ <key>m</key>
-
-## steps
-
-`users/nicholaswmin/.config/zed` should look like:
-
-- `themes/nicholaswmin.json` <-- theme file
-- `keybindings.json` 
-- `settings.json`
-
 
 
 ## Typography
@@ -88,6 +105,13 @@ looks like this (more or less):
 [Monaco][monaco] (Susan Kare), used in Zed UI
 
 [Menlo][menlo] (Jim Lyles, shipped with old OSX), used in Zed Buffer & shell
+
+
+## authors
+
+[@nicholaswmin][nicholaswmin]
+
+[MIT-0 License][mit-zero]
 
 
 [mit-zero]: https://spdx.org/licenses/MIT-0.html

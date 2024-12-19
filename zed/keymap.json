@@ -1,4 +1,5 @@
 [
+  // Standard macOS bindings
   {
     "bindings": {
       "up": "menu::SelectPrev",
