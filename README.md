@@ -7,7 +7,8 @@
 - [ ] ~~`npm` config~~ use a zed `task` to scaffold ESM modules.
 - [ ] `git` config
 - [ ] local dev. SSL
-- [ ] [bash settings](#bash)
+- [x] [typography](#typography)
+- [x] [bash settings](#bash)
 - [x] [zed](#zed)
 - [x] [shell](#shell-logins)
 
@@ -23,7 +24,7 @@ import `terminal-settings.terminal`, in some way.
 export BASH_SILENCE_DEPRECATION_WARNING=1
 ```
 
-### Typography
+### typography
 
 - [Monaco by Susan Kare][monaco]; used in Zed UI  
 - [Menlo by Jim Lyles][menlo], shipped with old OSX; used in Zed buffer & shell
