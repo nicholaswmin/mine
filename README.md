@@ -1,7 +1,6 @@
 # mine
 
-> [@nicholaswmin's][nicholaswmin] dotfiles
-
+> [@nicholaswmin's][nicholaswmin] dotfiles  
 > repo is for personal use
 
 ##  todos
@@ -87,14 +86,15 @@ needs cleanup to keep only ones I use.
 
 ### settings
 
-- disables shitty code-completion suggestions from [LSP: `vtsls`][vtsls]
-  - *without* disabling the LSP itself, needed for validations, formatting etc.
-  - keeps ony useful custom snippets in code-completion popup, finally.
-- customise *some* code formatting rules
-- enable Github Copilot inline-suggestion
 - disable alternate LSPs for JavaScript, keep only `vtsls`
+- disables shitty code-completion suggestions from [LSP: `vtsls`][vtsls]
+  - *without* disabling the LSP itself;   
+    required for syntax validation, formatting etc.
+  - keeps only custom snippets in code-completion popup, finally.
+- customise *some* formatting rules so code-formatting is now usable.
+- enable Github Copilot inline-suggestions
 - working terminal
-- disables a lot of unused features etc..
+- disables UI unused features, panels
 - custom keybindings:
   - add folder to project like Atom
   - open/close terminal via <key>Shift</key><key>n</key>/<key>Shift</key>+ <key>m</key>
