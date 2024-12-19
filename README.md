@@ -11,24 +11,24 @@
 - [x] zed
 - [x] shell settings/profile etc
 
-## usage
 
-- restore `terminal-settings.terminal`
-- restore `zed` settings (probably just dump entire folder)
-- restore typography if missing
-- restore OS `.profile` and `.bashrc`
-- download `programs.sh`
+## shell
 
-### shell
-
-> overview: Use `bash` and tell MacOS to stfu about upgrading `zsh`
+import settings from `terminal-settings.terminal`, in some way.
 
 ```bash
-# make that shitty MacOS warning shut the fuck up for a second
+# make that stupid shitty warning shut the fuck up
+# for a second
 export BASH_SILENCE_DEPRECATION_WARNING=1
 ```
 
-## zed 
+### Typography
+
+[Monaco][monaco] by Susan Kare;used in Zed UI
+[Menlo][menlo] by Jim Lyles, shipped with old OSX; used in Zed buffer & shell
+
+
+## [`zed`][zed]
 
 entire `~/.config/zed` folder is uploaded here,   
 so just replace that folder as-is.
@@ -37,7 +37,11 @@ so just replace that folder as-is.
 > avoid changing these settings abitrarily,   
 > almost every tweak is chosen for a reason
 
-### theme 
+### CLI
+
+CLI is installed in-app: `Zed` -> `Install CLI` from menu bar
+
+### theme `nicholaswmin.json`
 
 > started as ripoff of Atom's One Dark theme; most choices are now deliberate.
 
@@ -46,11 +50,7 @@ so just replace that folder as-is.
 - code completions popup blends unobtrusively with background; borderless, 
   muted palette.
 - muted punctuation `{`, `(` palette to emphasize code keywords, functions.
-- muted peripheral UI 
-- syntax highlighting:
-    - emphasize `keyword`, `function` declarations
-    - contrasting `type` pallette, i.e `number`, `boolean` etc ...
-    - mute punctuation `{`, `(` and generic fluff such as `this` etc..
+- muted peripheral UI palette
 
 looks like this (more or less):
 
@@ -61,11 +61,14 @@ looks like this (more or less):
 #### `javascript.json` 
 
 - organised in sections, e.g: `Promise`, `for`, `Array` etc..
-- syntax is *primarily* hyper-consise lambdas
+  - snippet fields follow (more-or-less) some reasoned format so don't just 
+    dump shit in there and messy it up.
+- syntax style prefers consise lambdas but includes full-body as well
+  in most cases.
 - each snippet `prefix` is intentionally named to order them appropriately in
-  the code-completion popup:
-  - e.g:`Array.forEach` is renamed `Array.each` to avoid popping up
-    on `for` for `for loop` etc.
+  the code-completion popup.   
+  e.g:`Array.forEach` renamed to `Array.each`; avoids mixing-in with `for` 
+  loop code completions
       
 #### `snippet.json`
 
@@ -77,7 +80,7 @@ empty file for now.
 code snippets nicked from `friendly-snippets` package, with some modifications,
 needs cleanup to keep only ones I use.
 
-### settings
+### `settings.json`
 
 - disable alternate LSPs for JavaScript, keep only [`vtsls`][vtsls]
 - disables shitty code-completion suggestions from [LSP: `vtsls`][vtsls]
@@ -93,22 +96,17 @@ needs cleanup to keep only ones I use.
   - open/close terminal via <key>Shift</key><key>n</key>/<key>Shift</key>+ <key>m</key>
 
 
-## Typography
+### shell logins
 
-[Monaco][monaco] (Susan Kare), used in Zed UI
-
-[Menlo][menlo] (Jim Lyles, shipped with old OSX), used in Zed Buffer & shell
-
-
-## `./profile` 
-
-> Just the OS `.profile`
+#### `.profile`
 
 - add it in home directory, i.e: `Users/nicholaswmin/.profile`
 - The `./bashrc` sources it.
 - terminal settings `settings.terminal` sources `~/.bashrc` on startup
 
+#### `.bashrc`
 
+no idea where this goes for now but ok
 
 ## authors
 
@@ -117,6 +115,7 @@ needs cleanup to keep only ones I use.
 [MIT-0 License][mit-zero]
 
 
+[zed]: https://zed.dev/
 [mit-zero]: https://spdx.org/licenses/MIT-0.html
 [nicholaswmin]: https://github.com/nicholaswmin
 [serve]: https://www.npmjs.com/package/serve
