@@ -1,24 +1,25 @@
 # mine
 
-> [@nicholaswmin's][nicholaswmin] dotfiles  
+> [@nicholaswmin's][nicholaswmin] dotfiles & settings
 > repo is for personal use
 
-##  todos
 
 - [ ] ~~`npm` config~~ use a zed `task` to scaffold ESM modules.
 - [ ] `git` config
 - [ ] local dev. SSL
-- [x] zed
-- [x] shell settings/profile etc
+- [ ] [bash settings][#bash]
+- [x] [zed](#zed)
+- [x] [shell](#shell-logins)
 
 
-## shell
+## bash
 
-import settings from `terminal-settings.terminal`, in some way.
+### install 
+
+import `terminal-settings.terminal`, in some way.
 
 ```bash
-# make that stupid shitty warning shut the fuck up
-# for a second
+# force that MacOS warning to shut the fuck up for 1 second
 export BASH_SILENCE_DEPRECATION_WARNING=1
 ```
 
@@ -31,8 +32,9 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 ## [`zed`][zed]
 
-entire `~/.config/zed` folder is uploaded here,   
-so just replace that folder as-is.
+### install 
+
+1. replace local `~/.config/zed` folder with the one uploaded here.
 
 > [!IMPORTANT]   
 > avoid changing these settings abitrarily,   
@@ -101,9 +103,17 @@ needs cleanup to keep only ones I use.
 
 #### `.profile`
 
-- add it in home directory, i.e: `Users/nicholaswmin/.profile`
-- The `./bashrc` sources it.
-- terminal settings `settings.terminal` sources `~/.bashrc` on startup
+alias:
+
+- `serve` starts local static-file server [`npx serve`][serve]
+- `projects` navigates to `~/Projects` directory
+- `config` navigates to `~/.config` directory
+
+### install 
+
+1. add in home directory, i.e: `Users/nicholaswmin/.profile`
+2. clone this `login/.bashrc`  to local `./bashrc` so it sources the above.
+3. set local shell `settings.terminal` to source `~/.bashrc` on startup
 
 #### `.bashrc`
 
