@@ -46,7 +46,11 @@ so just replace that folder as-is.
 - code completions popup blends unobtrusively with background; borderless, 
   muted palette.
 - muted punctuation `{`, `(` palette to emphasize code keywords, functions.
-- muted peripheral UI palette
+- muted peripheral UI 
+- syntax highlighting:
+    - emphasize `keyword`, `function` declarations
+    - contrasting `type` pallette, i.e `number`, `boolean` etc ...
+    - mute punctuation `{`, `(` and generic fluff such as `this` etc..
 
 looks like this (more or less):
 
