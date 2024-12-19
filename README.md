@@ -65,8 +65,7 @@ looks like this (more or less):
 - organised in sections, e.g: `Promise`, `for`, `Array` etc..
   - all snippet fields follow kind of reasoned format so don't just 
     dump shit in there and messy it up.
-- syntax style prefers consise lambdas but includes full-body as well
-  in most cases.
+- mostly consise lambdas
 - each snippet `prefix` is intentionally named to force specific order
   in the code-completion popup:
   e.g:`Array.forEach` renamed to `Array.each`; avoids mixing-in with `for` 
@@ -78,7 +77,8 @@ supposed to be generic snippets for all files, empty for now
 
 #### `html.json`
 
-nicked from `friendly-snippets` package, needs cleanup to keep only ones actually used.
+nicked from `friendly-snippets` package, needs cleanup to keep only ones 
+actually used.
 
 ### `settings.json`
 
