@@ -95,8 +95,8 @@ needs cleanup to keep only ones I use.
 - working terminal
 - disables UI unused features, panels
 - custom keybindings:
-  - add folder to project like Atom
-  - open/close terminal via <key>Shift</key><key>n</key>/<key>Shift</key>+ <key>m</key>
+  - `add folder to project`: <key>shift</key> + <key>cmd</key> + <key>o</key>
+  - `toggle terminal`: <key>Shift</key><key>n</key>/<key>Shift</key> <key>m</key>
 
 
 ### shell logins
