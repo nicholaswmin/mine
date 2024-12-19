@@ -46,6 +46,7 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 > `nicholaswmin.json`  
 > started as ripoff of Atom's One Dark theme; most choices are now deliberate.
 
+- mute visual fluff, blend borders where possible and flatten shadows
 - inline code-completions use unobtrusive muted palette; avoid interference
   with actual typing.
 - code completions popup blends unobtrusively with background; borderless, 
@@ -82,7 +83,6 @@ keep only ones I actually use.
 
 ### `settings.json`
 
-- mute visual fluff, blend borders where possible and flatten shadows
 - disable alternate LSPs for JavaScript, keep only [`LSP: vtsls`][vtsls]
 - disable those shitty code-completion popup suggestions from `vtsls`:
   - *without* disabling the LSP itself;   
