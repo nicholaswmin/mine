@@ -24,7 +24,8 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 ### Typography
 
-[Monaco][monaco] by Susan Kare;used in Zed UI
+[Monaco][monaco] by Susan Kare;used in Zed UI  
+
 [Menlo][menlo] by Jim Lyles, shipped with old OSX; used in Zed buffer & shell
 
 
