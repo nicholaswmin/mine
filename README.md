@@ -62,29 +62,29 @@ looks like this (more or less):
 #### `javascript.json` 
 
 - organised in sections, e.g: `Promise`, `for`, `Array` etc..
-  - snippet fields follow (more-or-less) some reasoned format so don't just 
+  - all snippet fields follow kind of reasoned format so don't just 
     dump shit in there and messy it up.
 - syntax style prefers consise lambdas but includes full-body as well
   in most cases.
-- each snippet `prefix` is intentionally named to order them appropriately in
-  the code-completion popup.   
+- each snippet `prefix` is intentionally named to force specific order
+  in the code-completion popup:
   e.g:`Array.forEach` renamed to `Array.each`; avoids mixing-in with `for` 
   loop code completions
       
 #### `snippet.json`
 
-supposed to be generic snippets that are not language-specific, 
-empty file for now.
+supposed to be generic snippets for all files, empty for now
 
 #### `html.json`
 
-code snippets nicked from `friendly-snippets` package, with some modifications,
-needs cleanup to keep only ones I use.
+nicked from `friendly-snippets` package, with some mods, needs cleanup to 
+keep only ones I actually use.
 
 ### `settings.json`
 
-- disable alternate LSPs for JavaScript, keep only [`vtsls`][vtsls]
-- disables shitty code-completion suggestions from [LSP: `vtsls`][vtsls]
+- mute visual fluff, blend borders where possible and flatten shadows
+- disable alternate LSPs for JavaScript, keep only [`LSP: vtsls`][vtsls]
+- disable those shitty code-completion popup suggestions from `vtsls`:
   - *without* disabling the LSP itself;   
     required for syntax validation, formatting etc.
   - keeps only custom snippets in code-completion popup, finally.
@@ -95,7 +95,6 @@ needs cleanup to keep only ones I use.
 - custom keybindings:
   - `add folder to project`: <kbd>shift</kbd>+<kbd>cmd</kbd>+<kbd>o</kbd>
   - `toggle terminal`: <kbd>Shift</kbd><kbd>n</kbd>/<kbd>Shift</kbd><kbd>m</kbd>
-
 
 ### shell logins
 
@@ -117,11 +116,9 @@ alias:
 
 no idea where this goes for now but ok
 
-## authors
+the end
 
-[@nicholaswmin][nicholaswmin]
-
-[MIT-0 License][mit-zero]
+[@nicholaswmin][nicholaswmin], [MIT-0 License][mit-zero]
 
 
 [zed]: https://zed.dev/
