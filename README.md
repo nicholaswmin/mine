@@ -7,7 +7,7 @@
 - [ ] ~~`npm` config~~ use a zed `task` to scaffold ESM modules.
 - [ ] `git` config
 - [ ] local dev. SSL
-- [ ] [bash settings][#bash]
+- [ ] [bash settings](#bash)
 - [x] [zed](#zed)
 - [x] [shell](#shell-logins)
 
