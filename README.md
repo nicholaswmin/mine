@@ -54,7 +54,7 @@ so just replace that folder as-is.
 
 looks like this (more or less):
 
-<img width="800" alt="zed app screenshot, showing the theme colours" src="https://github.com/user-attachments/assets/b4fbed84-2791-4fc4-85bb-a9beddcbcb73"/>
+<img width="900" alt="zed app screenshot, showing the theme colours" src="https://github.com/user-attachments/assets/273cc94f-52d8-4cfb-b973-4ff775c6f62c" />
 
 ### snippets
 
