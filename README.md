@@ -11,22 +11,22 @@
 - [x] zed
 - [x] shell settings/profile etc
 
+## usage
 
-## shell
+- restore `terminal-settings.terminal`
+- restore `zed` settings (probably just dump entire folder)
+- restore typography if missing
+- restore OS `.profile` and `.bashrc`
+- download `programs.sh`
+
+### shell
 
 > overview: Use `bash` and tell MacOS to stfu about upgrading `zsh`
 
-### steps
-
-- import settings from `terminal-settings.terminal` .
-- no idea how.
-
 ```bash
-# make that stupid shitty warning shut the fuck up
-# for a second
+# make that shitty MacOS warning shut the fuck up for a second
 export BASH_SILENCE_DEPRECATION_WARNING=1
 ```
-
 
 ## zed 
 
