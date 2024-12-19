@@ -35,17 +35,15 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 ### install 
 
 1. replace local `~/.config/zed` folder with the one uploaded here.
+2. Install CLI extension: in-app menu bar: `Zed` -> `Install CLI` 
 
 > [!IMPORTANT]   
 > avoid changing these settings abitrarily,   
 > almost every tweak is chosen for a reason
 
-### CLI
+### theme 
 
-CLI is installed in-app: `Zed` -> `Install CLI` from menu bar
-
-### theme `nicholaswmin.json`
-
+> `nicholaswmin.json`  
 > started as ripoff of Atom's One Dark theme; most choices are now deliberate.
 
 - inline code-completions use unobtrusive muted palette; avoid interference
