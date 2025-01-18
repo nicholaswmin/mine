@@ -1,5 +1,6 @@
 #!/usr/bin/bash 
 
+sudo su
 # @nicholaswmin apps/programs
 
 # Node first 
@@ -29,9 +30,9 @@ brew install --cask zed
 # Throttle your internet/localhost 
 npm install -g sitespeedio/throttle
 
-# github CLI
+# Github CLI/Copilot
 brew install gh
-gh extension upgrade gh-copilot
+gh extension install github/gh-copilot
 
 # Heroku CLI
 brew tap heroku/brew && brew install heroku
