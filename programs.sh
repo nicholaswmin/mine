@@ -31,6 +31,7 @@ npm install -g sitespeedio/throttle
 
 # github CLI
 brew install gh
+gh extension upgrade gh-copilot
 
 # Heroku CLI
 brew tap heroku/brew && brew install heroku
